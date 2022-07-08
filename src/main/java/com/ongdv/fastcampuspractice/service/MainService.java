@@ -1,4 +1,5 @@
 package com.ongdv.fastcampuspractice.service;
 
-public class MainService {
+public interface MainService {
+    String sayHello(String name);
 }
